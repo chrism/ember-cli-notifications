@@ -26,7 +26,8 @@ const NotificationMessagesService = ArrayProxy.extend({
       clearDuration: options.clearDuration || getWithDefault(globals, 'clearDuration', 5000),
       onClick: options.onClick,
       htmlContent: options.htmlContent || false,
-      cssClasses: options.cssClasses
+      cssClasses: options.cssClasses,
+      notificationIcon: options.notificationIcon || false
     });
 
     this.pushObject(notification);
