@@ -27,6 +27,7 @@ const NotificationMessagesService = ArrayProxy.extend({
       onClick: options.onClick,
       htmlContent: options.htmlContent || false,
       cssClasses: options.cssClasses,
+      notificationIcon: options.notificationIcon || false,
       bgColor: options.bgColor || false,
       textColor: options.textColor || false,
       darken: options.darken || false
