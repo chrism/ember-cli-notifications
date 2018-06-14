@@ -52,8 +52,6 @@ export default Component.extend({
 
   // Set icon depending on notification type
   notificationIcon: computed('notification.type', 'icons', 'notification.notificationIcon', function() {
-    console.log('using this');
-    
     if (!!this.get('notification.notificationIcon')) {
       return `fa ${this.get('notification.notificationIcon')}`;
     }
